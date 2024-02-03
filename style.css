@@ -289,7 +289,7 @@ button:hover {
 
 @media screen and (max-width: 480px) {
     .education {
-        height: 65vh;
+        height: 60vh;
     }
     .education-container {
         grid-template-columns: 1fr;
@@ -304,8 +304,8 @@ button:hover {
         font-size: 0.6rem;
     }
     .education-image {
-        width: 316px;
-        height: 100px;
+        width: 252px;
+        height: 80px;
     }
 }
 
@@ -467,7 +467,7 @@ button:hover {
 
 @media screen and (max-width: 480px) {
     .skils {
-        height: 380vh;
+        height: 200vh;
     }
 
     .skils h1 {
