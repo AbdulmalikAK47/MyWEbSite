@@ -267,10 +267,11 @@ button:hover {
 
 @media screen and (max-width: 960px) {
     .education {
-        height: 60vh;
+        height: 65vh;
     }
     .education-container {
         grid-template-columns: 1fr;
+        width: auto;
     }
     .education h1 {
         margin-bottom: 3rem;
@@ -281,8 +282,30 @@ button:hover {
         font-size: 1rem;
     }
     .education-image {
-        width: 442px;
-        height: 140px;
+        width: 379px;
+        height: 120px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .education {
+        height: 65vh;
+    }
+    .education-container {
+        grid-template-columns: 1fr;
+        width: auto;
+    }
+    .education h1 {
+        margin-bottom: 1.8rem;
+        font-size: 1.8rem;
+    }
+
+    .education p {
+        font-size: 0.6rem;
+    }
+    .education-image {
+        width: 316px;
+        height: 100px;
     }
 }
 
@@ -434,8 +457,22 @@ button:hover {
     }
 
     .skils h1 {
-        font-size: 2.5rem;
-        margin-top: 2rem;
+        font-size: 2.2rem;
+        margin-top: 1.8rem;
+    }
+    .hard-skils-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .skils {
+        height: 380vh;
+    }
+
+    .skils h1 {
+        font-size: 1.8rem;
+        margin-top: 1.4rem;
     }
     .hard-skils-container {
         grid-template-columns: 1fr;
