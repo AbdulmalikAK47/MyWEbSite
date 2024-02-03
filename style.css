@@ -467,7 +467,7 @@ button:hover {
 
 @media screen and (max-width: 480px) {
     .skils {
-        height: 350vh;
+        height: 480vh;
     }
 
     .skils h1 {
@@ -476,6 +476,12 @@ button:hover {
     }
     .hard-skils-container {
         grid-template-columns: 1fr;
+    }
+
+    .skils__card {
+        margin: 0.8rem;
+        height: 499px;
+        width: 380px;
     }
 }
 
