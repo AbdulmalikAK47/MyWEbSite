@@ -267,7 +267,7 @@ button:hover {
 
 @media screen and (max-width: 960px) {
     .education {
-        height: 65vh;
+        height: 75vh;
     }
     .education-container {
         grid-template-columns: 1fr;
@@ -279,11 +279,11 @@ button:hover {
     }
 
     .education p {
-        font-size: 1rem;
+        font-size: 1.4rem;
     }
     .education-image {
-        width: 379px;
-        height: 120px;
+        width: 411px;
+        height: 130px;
     }
 }
 
@@ -301,11 +301,11 @@ button:hover {
     }
 
     .education p {
-        font-size: 0.6rem;
+        font-size: 1rem;
     }
     .education-image {
-        width: 252px;
-        height: 80px;
+        width: 316px;
+        height: 100px;
     }
 }
 
@@ -347,17 +347,39 @@ button:hover {
     }
 
     .volunteering h1 {
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
 
     .volunteering p {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     .v-column-right {
         justify-content: center;
         margin-bottom: 5rem;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .volunteering {
+        height: 150vh;
+    }
+    .volunteering-container {
+        grid-template-columns: 1fr;
+    }
+
+    .volunteering h1 {
+        font-size: 2.2rem;
+    }
+
+    .volunteering p {
+        font-size: 1.5rem;
+    }
+    .v-column-right {
+        justify-content: center;
+        margin-bottom: 5rem;
+    }
+}
+
 /* skils Section */
 .skils {
     background: #fdcc04;
@@ -365,7 +387,7 @@ button:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 300vh;
+    height: 200vh;
 }
 
 .skils h1 {
@@ -387,15 +409,11 @@ button:hover {
 
 .skils__card {
     margin: 1rem;
-    height: 525px;
+    height: 120px;
     width: 400px;
     border-radius: 4px;
-    background-image: linear-gradient(
-            to bottom,
-            rgba(0, 0, 0, 0) 0%,
-            rgba(17, 17, 17, 0.9) 100%
-        ),
-        url("./images/Leadership.JPG");
+    background-color: #141414;
+
     background-size: cover;
     position: relative;
     color: #fff;
@@ -406,27 +424,20 @@ button:hover {
 }
 
 .skils__card:nth-child(2) {
-    background-image: linear-gradient(
-            to bottom,
-            rgba(0, 0, 0, 0) 0%,
-            rgba(17, 17, 17, 0.9) 100%
-        ),
-        url("./images/Communication.JPG");
+    background-color: #141414;
 }
 
 .skils__card:nth-child(3) {
-    background-image: url("./images/Teamwork.JPG"),
-        linear-gradient(
-            to bottom,
-            rgba(0, 0, 0, 0) 0%,
-            rgba(17, 17, 17, 0.9) 100%
-        );
+    background-color: #141414;
 }
 
 .skils__card h3 {
-    position: absolute;
-    top: 450px;
-    left: 30px;
+    text-align: center;
+    top: 50px;
+    padding-top: 45px;
+    color: #fdcc04;
+    font-size: 1.8rem;
+    font-style: italic;
 }
 
 .skils__card:hover {
@@ -453,7 +464,7 @@ button:hover {
 
 @media screen and (max-width: 960px) {
     .skils {
-        height: 450vh;
+        height: 240vh;
     }
 
     .skils h1 {
