@@ -1,3 +1,3 @@
 layout: page
-title: Projects
+title: "Projects"
 permalink: https://abdulmalikak47.github.io/MyWEbSite/projects
