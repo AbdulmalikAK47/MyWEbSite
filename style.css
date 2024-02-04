@@ -395,7 +395,7 @@ button:hover {
             rgba(0, 0, 0, 0) 0%,
             rgba(17, 17, 17, 0.9) 100%
         ),
-        url("../images/Leadership.jpg");
+        url("./images/Leadership.jpg");
     background-size: cover;
     position: relative;
     color: #fff;
@@ -411,11 +411,11 @@ button:hover {
             rgba(0, 0, 0, 0) 0%,
             rgba(17, 17, 17, 0.9) 100%
         ),
-        url("../images/Communication.jpg");
+        url("./images/Communication.jpg");
 }
 
 .skils__card:nth-child(3) {
-    background-image: url("../images/Teamwork.jpg"),
+    background-image: url("./images/Teamwork.jpg"),
         linear-gradient(
             to bottom,
             rgba(0, 0, 0, 0) 0%,
